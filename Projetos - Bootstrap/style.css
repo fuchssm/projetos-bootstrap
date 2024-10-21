@@ -1,0 +1,36 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #343a40;
+}
+.navbar-brand, .nav-link{
+    color: #fff !important;
+}
+.banner{
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.banner p{
+    font-size: 1.5rem;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+.footer{
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
